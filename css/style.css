@@ -1,0 +1,174 @@
+h1 {
+  color: #F3F4F4;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1,
+#title {
+  cursor: pointer;
+}
+
+h3 {
+  font-size: larger;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #061E29;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #061E29;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 150px;
+}
+
+.summary {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+}
+
+.Education {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+}
+.Education ul li {
+  display: block;
+  margin: 10px 0;
+}
+
+.Work {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+}
+.Work ul li {
+  display: block;
+  margin: 10px 0;
+}
+
+.Skills {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+}
+
+.birthdayProj {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+  display: inline-end;
+}
+
+.movie {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+  display: inline-end;
+}
+
+.EMI {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+  display: inline-end;
+}
+
+button {
+  background-color: #5F9598;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #5F9598;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #1D546D;
+  display: inline-end;
+  cursor: pointer;
+}
+
+footer,
+header {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1D546D;
+}
+
+li {
+  display: inline; /* makes the list horizontal */
+  margin: 0 15px; /* spacing between items */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1D546D; /* clean background */
+  box-shadow: 0 2px 8px #1D546D(0, 0, 0, 0.1); /* subtle shadow */
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* center all links */
+  gap: 40px; /* equal spacing between links */
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #F3F4F4; /* neutral text color */
+  font-weight: 600; /* bold for clarity */
+  transition: color 0.3s; /* smooth hover effect */
+}
+
+nav ul li a:hover {
+  color: #F3F4F4; /* professional blue highlight */
+}
+
+section {
+  scroll-margin-top: 80px; /* adjust to your nav’s height */
+}
