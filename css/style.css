@@ -144,7 +144,7 @@ nav {
   left: 0;
   width: 100%;
   background: #1D546D; /* clean background */
-  box-shadow: 0 2px 8px #1D546D(0, 0, 0, 0.1); /* subtle shadow */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
   z-index: 1000;
   border-radius: 5px;
 }
@@ -172,3 +172,26 @@ nav ul li a:hover {
 section {
   scroll-margin-top: 80px; /* adjust to your nav’s height */
 }
+
+
+@media (max-width: 600px) {
+h1 {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+nav ul li {
+  display: block;
+  margin: 8px 0;
+}
+
+}
+
