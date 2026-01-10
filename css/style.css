@@ -184,7 +184,7 @@ h1 {
 nav ul {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 8px;
   padding: 8px 0;
 }
 
@@ -194,4 +194,5 @@ nav ul li {
 }
 
 }
+
 
