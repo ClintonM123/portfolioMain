@@ -43,10 +43,13 @@ window.addEventListener("scroll", () => {
 });
 
 
-const menuBtn = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
-menuBtn.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('open');
+  document.body.classList.toggle('menu-open'); // prevents background scroll
 });
+
 
