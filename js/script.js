@@ -41,3 +41,12 @@ window.addEventListener("scroll", () => {
     nav.style.boxShadow = "0 10px 30px rgba(30, 64, 175, 0.2)";
   }
 });
+
+
+const menuBtn = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+menuBtn.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+
